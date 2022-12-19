@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./0xtz.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./files/loader.css" />
+    <!-- google analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-18W2M6PG67"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-18W2M6PG67");
+    </script>
+
+    <title>0xtz's Portfolio</title>
+    <script type="module" crossorigin src="/assets/index.925e7291.js"></script>
+    <link rel="stylesheet" href="/assets/index.1a33bea3.css">
+  </head>
+  <body>
+    <script>
+      // create a loading screen while the app is loading
+      document.querySelector(
+        "body"
+      ).innerHTML = `<div class="loader"><div class="loader-inner">Loadin ...</div></div>`;
+      setTimeout(() => {
+        document.querySelector(".loader").remove();
+      }, 3000);
+    </script>
+
+    <div id="root"></div>
+    
+  </body>
+</html>
